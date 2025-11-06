@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Page meta information -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us | Nutritionist</title>
+  <link rel="stylesheet" href="./main.css" />
+  <meta name="description" content="Contact Nutritionist for questions or support on your nutrition journey.">
+</head>
+<body>
+  <!-- Skip nav link for keyboard users -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header with navigation -->
+  <header role="banner">
+    <nav aria-label="Main Navigation" class="navbar">
+      <div class="logo" aria-label="Nutritionist Logo">
+        <span class="accessible-heading">Nutritionist</span>
+      </div>
+      <ul class="nav-links" role="menubar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Team.html">Team</a></li>
+        <li><a href="./process.html">Process</a></li>
+        <li><a href="#blogs.html">Blogs</a></li>
+        <li><a href="#pricing.html">Pricing</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      <button class="nav-btn" aria-label="Contact Us"><a href="./contact.html"></a>Contact Us</button>
+    </nav>
+  </header>
+
+  <!-- Main content starts here -->
+  <main id="main-content">
+    <!-- Hero banner with page heading -->
+    <section class="contact-hero" aria-labelledby="contact-heading">
+      <img src="./Images/Petals.png" alt="" class="contact-logo" aria-hidden="true" />
+      <h1 id="contact-heading">Contact Us</h1>
+      <p>We value your feedback, questions, and concerns at Nutritionist. Our team is here to help you on your nutrition journey. Reach us via any of the following contacts.</p>
+    </section>
+
+    <!-- Contact Info blocks -->
+    <section class="contact-info">
+      <div class="info-card">
+        <img src="./Images/email.svg" alt="" role="presentation" />
+        <p>support@nutritionist.com</p>
+      </div>
+      <div class="info-card">
+        <img src="./Images/phone.svg" alt="" role="presentation" />
+        <p>+91 00000 00000</p>
+      </div>
+      <div class="info-card">
+        <img src="./Images/location.svg" alt="" role="presentation" />
+        <p>Some Where in the World</p>
+      </div>
+    </section>
+
+    <!-- Contact form and map side by side -->
+    <section class="contact-form-map">
+      <form action="#" method="POST" class="contact-form" aria-label="Contact form">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your Name" required />
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required />
+        
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your Number" />
+        
+        <label for="message">Message <span class="char-limit">Max 250 Chars</span></label>
+        <textarea id="message" name="message" placeholder="Enter your Message" maxlength="250" rows="5"></textarea>
+        
+        <button type="submit" class="btn main-btn">Send Message</button>
+      </form>
+      <div class="contact-map" aria-label="Google Maps location map">
+        <img src="./Images/map-placeholder.png" alt="Office location on map" />
+        <div class="social-links" role="list" aria-label="Social Media Links">
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><img src="./Images/facebook.svg" alt="Facebook icon" /></a>
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><img src="./Images/twitter.svg" alt="Twitter icon" /></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="./Images/linkedin.svg" alt="LinkedIn icon" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action banner -->
+    <section class="contact-cta">
+      <p>Are you ready to embark on a transformative journey towards better health and wellness? Join us at Nutritionist and let us guide you on the path to a healthier and happier you.</p>
+      <a href="contact.html" class="btn main-btn">Join Us Now</a>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer role="contentinfo">
+    <div class="footer-top">
+      <span>Nutritionist</span>
+      <nav aria-label="Footer Navigation">
+        <ul class="nav-links" role="menubar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="./process.html">Process</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="./contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025lordlife Nutritionist. All rights reserved.</span>
+      <span>Email: <a href="lordlifeirakoze@gmail.com">lordlifeirakoze@gmail.com</a></span>
+      <span>Design by lord life | <a href="https://www.figma.com/community/file/1295130769939712364">Attribution</a></span>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutritionist - Personalized Nutrition Coaching</title>
+  <meta name="description" content="Transform your health with personalized nutrition coaching.">
+  <link rel="stylesheet" href="main.css">
+  <!-- Schema.org microdata for health service -->
+  <meta itemprop="itemtype" content="https://schema.org/Nutritionist">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header role="banner">
+    <nav class="navbar" aria-label="Main Navigation">
+      <div class="logo" aria-label="Nutritionist Logo">
+        <span class="accessible-heading">Nutritionist</span>
+      </div>
+      <ul class="nav-links" role="menubar">
+        <li><a href="./index.html" aria-current="page">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+       <li><a href="#">Team</a></li>
+        <li><a href="./process.html">process</a></li>
+         <li><a href="#">Blog</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="./contact.html">contact</a></li>
+        
+      </ul>
+      <button class="nav-btn" aria-label="Contact Us">Contact Us</button>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section class="hero">
+      <picture>
+        <!-- Responsive image for hero section -->
+        <source srcset="./Images/Image.png" media="(min-width: 768px)">
+        <img src="./Images/Image.png" alt="Person holding bowl, promoting healthy eating" class="hero-image">
+      </picture>
+      <div class="hero-text">
+        <h1>Personalized Nutrition Coaching</h1>
+        <p>Welcome to Nutritionist, your partner in reaching optimal health through personalized nutrition coaching. Start your transformation today!</p>
+        <div class="hero-buttons">
+          <a href="#pricing" class="btn primary-btn">Get Started Today</a>
+          <a href="#features" class="btn">Book a Demo</a>
+        </div>
+        <div class="happy-customers" aria-label="Happy Customers">
+          <img src="./Images/Container.png" alt="Happy customer avatars">
+          <span>430+ Happy Customers</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Features</h2>
+      <div class="features-grid">
+        <!-- Each feature uses a grid item and icon, with schema.org accessibility -->
+        <div class="feature-item" itemscope itemtype="https://schema.org/Service">
+          <img src="images/icon-plan.svg" alt="" role="presentation">
+          <h3 itemprop="name">Personalized Nutrition Plans</h3>
+          <p itemprop="description">Customized nutrition plans designed for your body and goals.</p>
+        </div>
+        <div class="feature-item">
+          <img src="images/icon-guidance.svg" alt="" role="presentation">
+          <h3>Guidance from Certified Nutritionists</h3>
+          <p>Expert advice provided by certified professionals.</p>
+        </div>
+        <div class="feature-item">
+          <img src="images/icon-tracking.svg" alt="" role="presentation">
+          <h3>Food Tracking and Analysis</h3>
+          <p>Track your food intake and get easy-to-use insights.</p>
+        </div>
+        <div class="feature-item">
+          <img src="images/icon-meal.svg" alt="" role="presentation">
+          <h3>Meal Planning and Recipes</h3>
+          <p>Access weekly meal plans and recipes tailored to you.</p>
+        </div>
+        <div class="feature-item">
+          <img src="images/icon-lifestyle.svg" alt="" role="presentation">
+          <h3>Lifestyle and Behavior Coaching</h3>
+          <p>Achieve sustainable solutions with tailored coaching.</p>
+        </div>
+        <div class="feature-item">
+          <img src="images/icon-workshops.svg" alt="" role="presentation">
+          <h3>Nutritional Education and Workshops</h3>
+          <p>Expand your nutrition knowledge through online workshops.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs" aria-labelledby="blogs-heading">
+      <h2 id="blogs-heading">Our Blogs</h2>
+      <div class="blogs-grid">
+        <!-- Example blog post grid items -->
+        <article class="blog-card">
+          <picture>
+            <source srcset="images/blog1-large.jpg" media="(min-width: 768px)">
+            <img src="images/blog1-small.jpg" alt="Healthy hydration tips" />
+          </picture>
+          <h3>The Benefits of Hydration for Weight Loss</h3>
+          <p>Discover why hydration supports weight loss goals.</p>
+          <span class="author">By Emily Johnson</span>
+        </article>
+        <article class="blog-card">
+          <picture>
+            <source srcset="images/blog2-large.jpg" media="(min-width: 768px)">
+            <img src="images/blog2-small.jpg" alt="Healthy relationship with food" />
+          </picture>
+          <h3>Cultivating a Healthy Relationship with Food</h3>
+          <p>Learn about positive eating habits and mindful nutrition.</p>
+          <span class="author">By Sarah Thompson</span>
+        </article>
+        <!-- Two more blog articles -->
+      </div>
+    </section>
+
+    <section class="testimonials" aria-labelledby="testimonials-heading">
+      <h2 id="testimonials-heading">Our Testimonials</h2>
+      <div class="testimonials-slider">
+        <!-- Simple slider, can animate on hover/focus, ARIA roles for accessibility -->
+        <blockquote class="testimonial active">
+          <p>I couldn't thank Nutritionist enough for the personalized approach to nutrition and wellness coaching... - Jennifer Anderson</p>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>Nutritionist has been a game changer for me. The support and guidance exceeded my expectations... - Robert Johnson</p>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>I had struggled with weight for years until I found Nutritionist. The support and compassion helped me reach my goals... - Emily Davis</p>
+        </blockquote>
+        <!-- Arrows for slider controls -->
+        <button class="slider-arrow left" aria-label="Previous testimonial">&#8592;</button>
+        <button class="slider-arrow right" aria-label="Next testimonial">&#8594;</button>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing" aria-labelledby="pricing-heading">
+      <h2 id="pricing-heading">Our Pricing</h2>
+      <div class="pricing-toggle">
+        <button class="toggle-btn active">Monthly</button>
+        <button class="toggle-btn">Yearly</button>
+        <span class="toggle-note">Save 30% on Yearly</span>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>Basic Plan</h3>
+          <p>Get started on your nutrition journey with our basic plan.</p>
+          <span class="price">$49<span class="month">/month</span></span>
+          <a href="#" class="btn choose-plan">Choose Plan</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Premium Plan</h3>
+          <p>Upgrade to premium for advanced features and personalized recommendations.</p>
+          <span class="price">$79<span class="month">/month</span></span>
+          <a href="#" class="btn choose-plan">Choose Plan</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Ultimate Plan</h3>
+          <p>Experience the full benefits of personalized nutrition coaching, available 24/7.</p>
+          <span class="price">$99<span class="month">/month</span></span>
+          <a href="#" class="btn choose-plan">Choose Plan</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer role="contentinfo">
+    <div class="footer-top">
+      <span>Nutritionist</span>
+      <nav aria-label="Footer Navigation">
+     <ul class="nav-links" role="menubar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="./process.html">Process</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025lordlife Nutritionist. All rights reserved.</span>
+      <span>Email: <a href="lordlifeirakoze@gmail.com">lordlifeirakoze@gmail.com</a></span>
+      <span>Design by lord life | <a href="https://www.figma.com/community/file/1295130769939712364">Attribution</a></span>
+    </div>
+  </footer>
+</body>
+</html>
